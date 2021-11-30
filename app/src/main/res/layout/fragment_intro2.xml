@@ -27,7 +27,7 @@
         android:layout_height="0dp"
         android:layout_weight="45"
         android:layout_gravity="center"
-        android:src="@drawable/Intro1_bg"/>
+        android:src="@drawable/Intro2_bg"/>
 
     <View
         android:layout_width="match_parent"
@@ -72,7 +72,7 @@ discovered coronavirus."
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        app:srcCompat="@drawable/trans1" />
+        app:srcCompat="@drawable/trans2" />
 
 
 
