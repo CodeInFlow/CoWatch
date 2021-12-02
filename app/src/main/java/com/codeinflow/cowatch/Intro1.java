@@ -21,6 +21,7 @@ public class Intro1 extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_intro1, container, false);
+        btn = v.findViewById(R.id.btnNext);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override

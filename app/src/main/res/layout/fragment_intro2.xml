@@ -54,7 +54,7 @@ discovered coronavirus."
         android:layout_weight="10" />
 
     <Button
-        android:id="@+id/btnNext"
+        android:id="@+id/btnNext2"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:text="Next"

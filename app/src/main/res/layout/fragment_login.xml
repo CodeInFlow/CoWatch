@@ -56,6 +56,25 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/login_email_box"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:hint="Phone">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/login_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textShortMessage" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
     <CheckBox
         android:id="@+id/login_checkbox"
         android:layout_width="match_parent"
@@ -88,14 +107,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="12"
+        android:layout_weight="10"
         android:orientation="horizontal"
         android:weightSum="100">
 
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="25" />
+            android:layout_weight="30" />
 
         <Button
             android:id="@+id/btn_getOTP"
@@ -103,7 +122,7 @@
             android:layout_height="match_parent"
             android:backgroundTint="@color/theme_color"
             android:background="@drawable/et_rounded"
-            android:layout_weight="50"
+            android:layout_weight="40"
             android:text="Login"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
@@ -112,7 +131,7 @@
         <View
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="25" />
+            android:layout_weight="30" />
     </LinearLayout>
 
 
